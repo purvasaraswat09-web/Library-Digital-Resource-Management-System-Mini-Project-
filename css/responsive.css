@@ -1,0 +1,52 @@
+@media (max-width: 1000px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature-container {
+        flex-wrap: wrap;
+    }
+
+    .feature-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 90%;
+    }
+
+    .navbar nav {
+        flex-direction: column;
+    }
+
+    .library-banner h2 {
+        font-size: 30px;
+    }
+}

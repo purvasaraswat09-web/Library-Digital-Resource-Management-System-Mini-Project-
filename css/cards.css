@@ -1,0 +1,132 @@
+.page-banner {
+    min-height: 280px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("../images/banners/books-banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.page-banner h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.page-banner p {
+    font-size: 18px;
+}
+
+.books-section,
+.category-section {
+    padding: 60px 7%;
+}
+
+.search-box {
+    display: flex;
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 13px 22px;
+    border: none;
+    background: #198754;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-box button img {
+    width: 16px;
+    vertical-align: middle;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.book-card,
+.category-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+    text-align: center;
+    padding-bottom: 25px;
+    transition: 0.3s;
+}
+
+.book-card:hover,
+.category-card:hover {
+    transform: translateY(-8px);
+}
+
+.book-card img,
+.category-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.book-card h3,
+.category-card h3 {
+    color: #198754;
+    margin: 18px 10px 8px;
+}
+
+.book-card p,
+.category-card p {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    display: inline-block;
+    background: #198754;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.card-btn:hover {
+    background: #146c43;
+}
+
+.category-section h2 {
+    text-align: center;
+    color: #146c43;
+    margin-bottom: 35px;
+}
+.digital-section img {
+    width: 35%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
