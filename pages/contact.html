@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraTech | Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<header class="navbar">
+    <a class="logo" href="../index.html"><img src="../images/logo.png" alt="LibraTech logo"><span>LibraTech</span></a>
+    <nav aria-label="Main navigation">
+        <a href="../index.html"><img src="../assets/icons/home.png" alt="">Home</a>
+        <a href="books.html"><img src="../assets/icons/book.png" alt="">Books</a>
+        <a href="categories.html"><img src="../assets/icons/category.png" alt="">Categories</a>
+        <a href="digital-resources.html"><img src="../assets/icons/digital.png" alt="">Digital Resources</a>
+        <a href="services.html"><img src="../assets/icons/service.png" alt="">Services</a>
+        <a href="dashboard.html"><img src="../assets/icons/user.png" alt="">Dashboard</a>
+        <a class="active" href="contact.html" aria-current="page"><img src="../assets/icons/contact.png" alt="">Contact</a>
+    </nav>
+</header>
+<main>
+    <section class="contact-hero">
+        <p class="eyebrow">WE'RE HERE TO HELP</p>
+        <h1>Let's Talk</h1>
+        <p>Have a question about books, digital resources, or library services? Send us a message.</p>
+    </section>
+    <section class="contact-layout">
+        <aside class="contact-info">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>How can we help?</h2>
+            <p class="contact-description">Share your question or feedback and our library team will be happy to help.</p>
+            <div class="contact-detail"><span class="contact-icon">✉</span><div><strong>Email</strong><p>Use the message form to send your enquiry.</p></div></div>
+            <div class="contact-detail"><span class="contact-icon">◷</span><div><strong>Library hours</strong><p>Monday – Saturday<br>9:00 AM – 5:00 PM</p></div></div>
+            <div class="contact-detail"><span class="contact-icon">⌖</span><div><strong>Visit us</strong><p>Contact the library team for location details.</p></div></div>
+            <div class="contact-note"><strong>Before you send</strong><p>Please include enough detail so we can understand your question. Avoid sharing passwords or sensitive personal information.</p></div>
+        </aside>
+        <section class="contact-form-card">
+            <h2>Send us a message</h2>
+            <p class="form-intro">Fields marked with * are required.</p>
+            <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); document.getElementById('form-status').textContent='This demo form is ready for a backend or email service to be connected.';">
+                <div class="form-row">
+                    <div class="form-field"><label for="name">Full name *</label><input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required></div>
+                    <div class="form-field"><label for="email">Email address *</label><input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required></div>
+                </div>
+                <div class="form-field"><label for="subject">Subject *</label><input type="text" id="subject" name="subject" placeholder="What is this about?" required></div>
+                <div class="form-field"><label for="message">Your message *</label><textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea></div>
+                <button type="submit">Send Message <span aria-hidden="true">→</span></button>
+                <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </section>
+</main>
+<footer><p>© 2026 LibraTech | Library &amp; Digital Resource Management System</p></footer>
+<script src="../js/contact.js" defer></script>
+    <script src="../js/navbar.js" defer></script>\n</body>
+</html>

@@ -1,0 +1,9 @@
+| Team Member    | Branch Name         | Assigned Work                           |
+| -------------- | ------------------- | --------------------------------------- |
+| **Purva**      | `member1-home`      | Home page, Navbar, Responsive Design    |
+| **Pranjl**     | `member2-books`     | Books page, Categories page, Book Cards |
+| **Pratishtha** | `member3-digital`   | Digital Resources page, Services page   |
+| **Prince**     | `member4-dashboard` | Dashboard, About page, Contact page     |
+
+
+
