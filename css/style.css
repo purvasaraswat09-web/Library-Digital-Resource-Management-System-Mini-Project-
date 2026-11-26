@@ -161,3 +161,9 @@ footer {
     text-align: center;
     padding: 25px;
 }
+.section-highlighted {
+    background-color: #f0f8f1;
+    border-left: 4px solid #2e7d32;
+    padding: 15px;
+    border-radius: 8px;
+}
