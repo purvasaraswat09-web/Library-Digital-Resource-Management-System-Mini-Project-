@@ -122,3 +122,11 @@
     color: #146c43;
     margin-bottom: 35px;
 }
+.digital-section img {
+    width: 35%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
